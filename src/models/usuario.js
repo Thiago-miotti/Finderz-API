@@ -20,7 +20,7 @@ class Usuario {
         await Sql.conectar(async (sql) => {
             try {
 
-                await sql.query('INSERT INTO USUARIO (user_name, user_username, user_email, user_senha) VALUES (?, ?, ?, ?)', [u.nome, u.username, u.email, u.senha]);
+                // await sql.query('INSERT INTO USUARIO (user_name, user_username, user_email, user_senha) VALUES (?, ?, ?, ?)', [u.nome, u.username, u.email, u.senha]);
 
             }
             catch (error) {

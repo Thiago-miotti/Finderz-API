@@ -6,18 +6,14 @@ const Usuario = require('../models/usuario');
 
 
 router.post("/cadastro", async (req, res) => {
-    console.log(req.body)
     const u = req.body;
+    
+    console.log(u)
 
-
+    // res.send('oke');
     await Usuario.cadastro(u, res);
 
 });
-
-router.get("/info-user", async (req, res) => {
-
-})
-
 
 
 module.exports = router; 

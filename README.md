@@ -1,3 +1,3 @@
 # FINDERZ
 
-### App para achar jogadores do valorant
+### WebApp para achar jogadores do valorant
